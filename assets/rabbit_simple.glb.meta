@@ -1,0 +1,124 @@
+{
+  "ver": "2.3.1",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "c90cb2e1-849a-4410-8c20-d6f8e3fcb8a6",
+  "files": [],
+  "subMetas": {
+    "ef8a8": {
+      "importer": "gltf-mesh",
+      "uuid": "c90cb2e1-849a-4410-8c20-d6f8e3fcb8a6@ef8a8",
+      "displayName": "",
+      "id": "ef8a8",
+      "name": "Mesh_0.mesh",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.1.0",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1e9b9": {
+      "importer": "gltf-embeded-image",
+      "uuid": "c90cb2e1-849a-4410-8c20-d6f8e3fcb8a6@1e9b9",
+      "displayName": "",
+      "id": "1e9b9",
+      "name": "Image_3.image",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.3",
+      "imported": true,
+      "files": [
+        ".json",
+        ".png"
+      ],
+      "subMetas": {}
+    },
+    "e39f7": {
+      "importer": "texture",
+      "uuid": "c90cb2e1-849a-4410-8c20-d6f8e3fcb8a6@e39f7",
+      "displayName": "",
+      "id": "e39f7",
+      "name": "UnnamedTexture.texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "linear",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "c90cb2e1-849a-4410-8c20-d6f8e3fcb8a6@1e9b9"
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f8f78": {
+      "importer": "gltf-material",
+      "uuid": "c90cb2e1-849a-4410-8c20-d6f8e3fcb8a6@f8f78",
+      "displayName": "",
+      "id": "f8f78",
+      "name": "Material_0.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "761ea": {
+      "importer": "gltf-scene",
+      "uuid": "c90cb2e1-849a-4410-8c20-d6f8e3fcb8a6@761ea",
+      "displayName": "",
+      "id": "761ea",
+      "name": "rabbit_simple.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [
+      {
+        "name": "Image_3",
+        "uri": "c90cb2e1-849a-4410-8c20-d6f8e3fcb8a6@1e9b9"
+      }
+    ],
+    "legacyFbxImporter": false,
+    "allowMeshDataAccess": true,
+    "redirect": "c90cb2e1-849a-4410-8c20-d6f8e3fcb8a6@761ea",
+    "assetFinder": {
+      "meshes": [
+        "c90cb2e1-849a-4410-8c20-d6f8e3fcb8a6@ef8a8"
+      ],
+      "skeletons": [],
+      "textures": [
+        "c90cb2e1-849a-4410-8c20-d6f8e3fcb8a6@e39f7"
+      ],
+      "materials": [
+        "c90cb2e1-849a-4410-8c20-d6f8e3fcb8a6@f8f78"
+      ],
+      "scenes": [
+        "c90cb2e1-849a-4410-8c20-d6f8e3fcb8a6@761ea"
+      ]
+    }
+  }
+}
