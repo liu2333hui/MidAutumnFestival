@@ -257,7 +257,7 @@ CCProgram standard-fs %{
 
     baseColor*= 1.5;
     
-    baseColor.x *= 1.0 + cos(cc_time.x*5.0)/4.0;
+    baseColor.x *= 1.0 + cos(v_position.x+v_position.z*3.0+cc_time.x*5.0)/4.0;
 
    //if ((xx-dx)*(xx-dx) + (yy-dy)*(yy-dy) < 0.1 ) baseColor.b = 1.0;
    //if (xx > 0.9 ) baseColor.g = 1.0;

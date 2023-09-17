@@ -62,22 +62,6 @@
       ],
       "subMetas": {}
     },
-    "f8f78": {
-      "importer": "gltf-material",
-      "uuid": "c90cb2e1-849a-4410-8c20-d6f8e3fcb8a6@f8f78",
-      "displayName": "",
-      "id": "f8f78",
-      "name": "Material_0.material",
-      "userData": {
-        "gltfIndex": 0
-      },
-      "ver": "1.0.14",
-      "imported": true,
-      "files": [
-        ".json"
-      ],
-      "subMetas": {}
-    },
     "761ea": {
       "importer": "gltf-scene",
       "uuid": "c90cb2e1-849a-4410-8c20-d6f8e3fcb8a6@761ea",
@@ -114,11 +98,13 @@
         "c90cb2e1-849a-4410-8c20-d6f8e3fcb8a6@e39f7"
       ],
       "materials": [
-        "c90cb2e1-849a-4410-8c20-d6f8e3fcb8a6@f8f78"
+        "f8894d45-81ed-41c6-8607-c08975770af4"
       ],
       "scenes": [
         "c90cb2e1-849a-4410-8c20-d6f8e3fcb8a6@761ea"
       ]
-    }
+    },
+    "dumpMaterials": true,
+    "materialDumpDir": "db://assets/Materials_rabbit_simple"
   }
 }
