@@ -81,7 +81,7 @@ systemEvent.on(SystemEventType.TOUCH_START, (e: Touch) => {
 
     随机生成关(){
         // this.游戏盘.
-         console.log(this.游戏盘)
+         //console.log(this.游戏盘)
 
          this.游戏数组 = [];
         
@@ -96,16 +96,18 @@ systemEvent.on(SystemEventType.TOUCH_START, (e: Touch) => {
 	else if(id == 模型类型.月亮)  模型 = instantiate(this.月亮);
 	//if(id == 模型类型.莲花)  模型 = instantiate(this.莲花);
 	
-	console.log(i,j,id)
+	//console.log(i,j,id)
 	//console.log(模型类型.兔子, 模型类型.月饼
 
                 模型?.setPosition(i*1.5, 0, j*1.5);
+                模型.name = 模型.name+"-"+(i)+"-"+(j)
 	行.push(id)
                 this.游戏盘.addChild(模型);
            }
              this.游戏数组.push(行);
         }
-        console.log(this)
+        console.log( this.游戏盘)
+        console.log(this.游戏数组)
     }
 
     start(){
@@ -130,6 +132,30 @@ systemEvent.on(SystemEventType.TOUCH_START, (e: Touch) => {
           
      }
 
+     所在位置(name){
+         let i = 0; 
+         let subname = "";
+         let x , y;
+         let idx = 0;
+         for(i = 0; i < name.length; i++){
+             if( name[i] == "-"){
+	    if(idx == 0){
+	      }else if(idx == 1){
+	           x = parseInt(subname);
+                     }
+
+                  idx++;
+                  subname = "";
+              }else{
+                 subname += name[i];
+               }
+            }
+
+             y = parseInt(subname);
+        
+         return [x, y];
+     }
+
 
     // 上一个选中的结果
     last: MeshRenderer = null!;
@@ -147,7 +173,8 @@ systemEvent.on(SystemEventType.TOUCH_START, (e: Touch) => {
             console.log("月饼", name);
 	console.log(node.collider.node.name);
            let type = this.getType(node.collider.node.name);
-         console.log(node.collider.node.name, type);
+          let 位置 = this.所在位置(node.collider.node.name);
+         console.log(node.collider.node.name, type , 位置);
 
          let 描边材质;
          if(type == 模型类型.兔子) 描边材质 = this.兔子描边材质;

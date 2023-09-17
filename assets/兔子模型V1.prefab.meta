@@ -2,12 +2,12 @@
   "ver": "1.1.40",
   "importer": "prefab",
   "imported": true,
-  "uuid": "590468e3-ad7a-4d96-94a4-d9cab58c395c",
+  "uuid": "d8077476-37c1-4419-bf29-6d989247f06d",
   "files": [
     ".json"
   ],
   "subMetas": {},
   "userData": {
-    "syncNodeName": "兔子模型"
+    "syncNodeName": "兔子模型V1"
   }
 }
